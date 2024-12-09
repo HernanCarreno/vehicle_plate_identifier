@@ -5,11 +5,17 @@ from lib.countries.el_salvador import El_salvador
 from lib.countries.chile import Chile
 from lib.countries.costa_rica import Costa_Rica
 from lib.countries.panama import Panama
+from lib.countries.argentina import Argentina
+from lib.countries.venezuela import Venezuela
+from lib.countries.bolivia import Bolivia
+from lib.countries.uruguay import Uruguay
+from lib.countries.brasil import Brasil
+
 
 class PlateIdentifier:
     def __init__(self):
         self.countries = [Mexico(), Colombia(), Guatemala(), El_salvador(), Chile(), Costa_Rica(),
-                          Panama()]
+                          Panama(),Argentina(),Venezuela(),Brasil(),Bolivia(),Uruguay(),Brasil(),              ]
 
     def identify(self, plate):
         matches = []
