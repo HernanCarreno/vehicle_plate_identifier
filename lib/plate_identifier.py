@@ -10,12 +10,16 @@ from lib.countries.venezuela import Venezuela
 from lib.countries.bolivia import Bolivia
 from lib.countries.uruguay import Uruguay
 from lib.countries.brasil import Brasil
+from lib.countries.ecuador import Ecuador
+from lib.countries.peru import Peru
+from lib.countries.paraguay import Paraguay
 
 
 class PlateIdentifier:
     def __init__(self):
         self.countries = [Mexico(), Colombia(), Guatemala(), El_salvador(), Chile(), Costa_Rica(),
-                          Panama(),Argentina(),Venezuela(),Brasil(),Bolivia(),Uruguay(),Brasil(),              ]
+                          Panama(),Argentina(),Venezuela(),Brasil(),Bolivia(),Uruguay(),Brasil(),  
+                          Peru(),Ecuador(),Paraguay()                        ]
 
     def identify(self, plate):
         matches = []
